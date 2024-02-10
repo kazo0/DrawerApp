@@ -1,0 +1,10 @@
+{
+	"profiles": {
+		"DrawerApp.Windows (Unpackaged)": {
+			"commandName": "Project"
+		},
+		"DrawerApp.Windows (Package)": {
+			"commandName": "MsixPackage"
+		}
+	}
+}

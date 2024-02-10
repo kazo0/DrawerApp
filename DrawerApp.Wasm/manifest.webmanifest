@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "DrawerApp",
+  "display": "standalone",
+  "name": "DrawerApp",
+  "short_name": "DrawerApp",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
