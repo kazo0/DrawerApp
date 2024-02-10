@@ -1,0 +1,53 @@
+﻿<Flyout x:Class="DrawerApp.NavFlyout"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:local="using:DrawerApp"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		mc:Ignorable="d"
+		xmlns:um="using:Uno.Material"
+		xmlns:utu="using:Uno.Toolkit.UI"
+		Placement="Full"
+		FlyoutPresenterStyle="{StaticResource NavFlyoutPresenterStyle}">
+
+	<Grid RowSpacing="12">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition Height="Auto" />
+			<RowDefinition Height="Auto" />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+
+		<Image HorizontalAlignment="Center"
+			   Height="150"
+			   Width="150"
+			   Source="ms-appx:///DrawerApp/Assets/Icons/unologo.png"
+			   Margin="0,16" />
+
+		<Button Grid.Row="1"
+				FontSize="24"
+				Content="Notifications"
+				Style="{StaticResource TextButtonStyle}"
+				HorizontalContentAlignment="Left"
+				HorizontalAlignment="Stretch">
+			<um:ControlExtensions.Icon>
+				<FontIcon FontWeight="Bold"
+						  FontSize="24"
+						  Glyph="&#xea8f;" />
+			</um:ControlExtensions.Icon>
+		</Button>
+	<utu:Divider Grid.Row="2" Margin="12,0"/>
+	<Button Grid.Row="3"
+				Content="Help"
+				FontSize="24"
+				Style="{StaticResource TextButtonStyle}"
+				HorizontalContentAlignment="Left"
+				HorizontalAlignment="Stretch">
+			<um:ControlExtensions.Icon>
+				<FontIcon FontWeight="Bold"
+						  FontSize="24"
+						  Glyph="&#xE897;" />
+			</um:ControlExtensions.Icon>
+		</Button>
+	</Grid>
+</Flyout>

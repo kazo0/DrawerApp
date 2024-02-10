@@ -15,7 +15,7 @@
             <utu:NavigationBar.MainCommand>
                 <AppBarButton>
                     <AppBarButton.Icon>
-                        <BitmapIcon UriSource="ms-appx:///NavBarApp/Assets/Icons/burger.png" />
+                        <BitmapIcon UriSource="ms-appx:///DrawerApp/Assets/Icons/burger.png" />
                     </AppBarButton.Icon>
                     <AppBarButton.Flyout>
                         <local:NavFlyout />

@@ -18,6 +18,9 @@
     -->
     <!-- <WindowsSdkPackageVersion>10.0.22621.28</WindowsSdkPackageVersion> -->
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Controls\NavFlyout.xaml" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Uno.WinUI" />
@@ -30,6 +33,10 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Console" />
     <PackageReference Include="Microsoft.WindowsAppSDK" Condition="$(TargetFramework.Contains('windows10'))" />
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Condition="$(TargetFramework.Contains('windows10'))" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Controls\NavFlyout.xaml" />
   </ItemGroup>
 
 </Project>
