@@ -8,9 +8,10 @@
 		xmlns:um="using:Uno.Material"
 		xmlns:utu="using:Uno.Toolkit.UI"
 		Placement="Full"
-		FlyoutPresenterStyle="{StaticResource NavFlyoutPresenterStyle}">
+		FlyoutPresenterStyle="{StaticResource LeftDrawerFlyoutPresenterStyle}">
 
-	<Grid RowSpacing="12">
+	<Grid RowSpacing="12"
+		  Margin="20,0">
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto" />
 			<RowDefinition Height="Auto" />
@@ -36,8 +37,8 @@
 						  Glyph="&#xea8f;" />
 			</um:ControlExtensions.Icon>
 		</Button>
-	<utu:Divider Grid.Row="2" Margin="12,0"/>
-	<Button Grid.Row="3"
+		<utu:Divider Grid.Row="2" />
+		<Button Grid.Row="3"
 				Content="Help"
 				FontSize="24"
 				Style="{StaticResource TextButtonStyle}"
