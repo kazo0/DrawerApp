@@ -8,7 +8,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
-            <RowDefinition />
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <utu:NavigationBar Content="First Page"
                            MainCommandMode="Action">
@@ -23,5 +23,11 @@
                 </AppBarButton>
             </utu:NavigationBar.MainCommand>
         </utu:NavigationBar>
+
+        <Button Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Open Sheet">
+            <Button.Flyout>
+                <local:BottomSheetFlyout />
+            </Button.Flyout>
+        </Button>
     </Grid>
 </Page>

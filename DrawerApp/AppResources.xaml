@@ -19,4 +19,12 @@
 		<Setter Property="utu:DrawerFlyoutPresenter.LightDismissOverlayBackground" Value="Red" />
 	</Style>
 
+	<Style x:Key="BottomSheetFlyoutPresenterStyle"
+		TargetType="FlyoutPresenter"
+		BasedOn="{StaticResource BottomDrawerFlyoutPresenterStyle}">
+	<Setter Property="CornerRadius" Value="20,20,0,0" />
+	<Setter Property="utu:DrawerFlyoutPresenter.DrawerLength" Value="0.3*" />
+	</Style>
+
+
 </ResourceDictionary>
