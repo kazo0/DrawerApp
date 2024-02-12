@@ -8,7 +8,7 @@
 		xmlns:um="using:Uno.Material"
 		xmlns:utu="using:Uno.Toolkit.UI"
 		Placement="Full"
-		FlyoutPresenterStyle="{StaticResource NavFlyoutPresenterStyle}">
+		FlyoutPresenterStyle="{StaticResource LeftDrawerFlyoutPresenterStyle}">
 
 	<Grid RowSpacing="12">
 		<Grid.RowDefinitions>
