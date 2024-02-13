@@ -24,13 +24,13 @@
 			</utu:NavigationBar.MainCommand>
 		</utu:NavigationBar>
 
-		<!--<Button Grid.Row="1"
+		<Button Grid.Row="1"
 				HorizontalAlignment="Center"
 				VerticalAlignment="Center"
 				Content="Open Sheet">
 			<Button.Flyout>
 				<local:BottomSheetFlyout />
 			</Button.Flyout>
-		</Button>-->
+		</Button>
 	</Grid>
 </Page>

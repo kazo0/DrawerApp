@@ -4,11 +4,11 @@
 		xmlns:local="using:DrawerApp"
 		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-		mc:Ignorable="d"
 		xmlns:um="using:Uno.Material"
 		xmlns:utu="using:Uno.Toolkit.UI"
+		mc:Ignorable="d"
 		Placement="Full"
-		FlyoutPresenterStyle="{StaticResource LeftDrawerFlyoutPresenterStyle}">
+		FlyoutPresenterStyle="{StaticResource NavFlyoutPresenterStyle}">
 
 	<Grid RowSpacing="12"
 		  Margin="20,0">

@@ -15,9 +15,16 @@
 		   TargetType="FlyoutPresenter"
 		   BasedOn="{StaticResource LeftDrawerFlyoutPresenterStyle}">
 		<Setter Property="CornerRadius" Value="0,20,20,0" />
+	</Style>
+
+	<!--  Stupid red dismiss layer style  -->
+	<!-- <Style x:Key="NavFlyoutPresenterStyle"
+		   TargetType="FlyoutPresenter"
+		   BasedOn="{StaticResource LeftDrawerFlyoutPresenterStyle}">
+		<Setter Property="CornerRadius" Value="0,20,20,0" />
 		<Setter Property="utu:DrawerFlyoutPresenter.DrawerLength" Value="0.9*" />
 		<Setter Property="utu:DrawerFlyoutPresenter.LightDismissOverlayBackground" Value="Red" />
-	</Style>
+	</Style> -->
 
 	<Style x:Key="BottomSheetFlyoutPresenterStyle"
 		   TargetType="FlyoutPresenter"
